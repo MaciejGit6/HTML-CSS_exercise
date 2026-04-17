@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header, footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+main {
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+aside {
+    background: #e0e0e0;
+    padding: 20px;
+}
